@@ -8,7 +8,7 @@ import { PRODUCTS } from '../models/mock-product';
 })
 export class ProductDescriptionComponent implements OnInit {
 
-  products = PRODUCTS;
+  product = PRODUCTS[0];
 
   constructor() { }
 
