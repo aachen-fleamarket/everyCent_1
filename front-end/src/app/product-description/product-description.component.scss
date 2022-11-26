@@ -14,12 +14,14 @@ $background-color: #FEF6ED;
 
 .container {
   background-color: $background-color;
-  width: 500px;
+  width: 576px;
   height: 100%;
+  padding: 0;
 };
 
 .product-description-image {
   display: block;
+  padding-top: 16px;
   width: 100%;
   height: auto;
 }
