@@ -1,0 +1,20 @@
+<div class="container">
+    <img class="product-description-image" [src]="product.productImage" [alt]="product.productTitle"/>
+    <div class="product-description-content">
+      <span class="product-description-title">{{ product.productTitle }}</span>
+      <span class="product-description-category">{{ product.productCategory }}</span>
+      <span class="product-description-price">{{ product.productPrice }} €</span>
+      <hr/>
+      <span class="product-description-date">{{ product.postDate }}</span>
+      <span class="product-description-desc">
+        <span class="product-description-descTitle">
+          [Description]
+        </span>
+        {{ product.productDescription }}
+      </span>
+      <span class="product-description-contact">{{ product.contact }}</span>
+    </div>
+</div>
+
+
+
