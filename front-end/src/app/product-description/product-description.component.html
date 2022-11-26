@@ -1,3 +1,19 @@
-<p>prodcut description</p>
+<div class="container">
+    <img [src]="products[0].productImage" [alt]="products[0].productTitle"/>
+    <div class="product-description-content">
+      <span class="product-description-title">{{ products[0].productTitle }}</span>
+      <span class="product-description-category">{{ products[0].productCategory }}</span>
+      <span class="product-description-price">{{ products[0].productPrice }}€</span>
+      <span class="product-description-date">{{ products[0].postDate }}</span>
+      <span class="product-description-desc">
+        <span class="product-description-descTitle">
+          [Description]
+        </span>
+        {{ products[0].productDescription }}
+      </span>
+      <span class="product-description-contact">{{ products[0].contact }}</span>
+    </div>
+</div>
+
 
 
